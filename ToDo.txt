@@ -1,0 +1,38 @@
+HomePage
+
+	About Us
+	--Title
+	--Desciription
+	--Image1
+	--Image2
+	----Why Choose Us
+	------Title
+	------Description1
+	------Description2
+	----Statistics
+	------HappyCustomers
+	------Projects
+	------Branches
+
+	Statistics
+	--CustomProducts
+	--OurFarms
+	--HappCustomers
+
+	PropertiesByArea
+	--City
+	--SmallDescription
+	--Amount
+	--ImageUrl
+
+Services
+	Properties
+	--ImageUrl
+	--Title
+	--Price
+	--Description
+	--BedroomCount
+	--BathroomCount
+	--Square
+
+

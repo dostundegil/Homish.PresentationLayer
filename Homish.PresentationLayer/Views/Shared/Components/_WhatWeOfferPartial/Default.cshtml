@@ -1,0 +1,37 @@
+﻿@model List<Homish.EntityLayer.Property>
+
+<section class="w3l-services1">
+    <div id="content-with-photo4-block" class="py-5">
+        <div class="container py-md-5">
+            <div class="cwp4-two row">
+                <div class="cwp4-text col-lg-4 mb-lg-0 mb-5">
+                    <h6 class="sub-title">Ne Yapıyoruz</h6>
+                    <h3 class="hny-title">Sizlere Neler Sunuyoruz</h3>
+                    <p>
+                        Profesyonel ekibimizle ihtiyaçlarınıza tamamen uyan mülklerle sizleri buluşturuyoruz.
+                    </p>
+                    <a href="about.html" class="btn btn-style mt-lg-4 mt-2">Daha Fazla</a>
+                </div>
+                @foreach (var item in Model)
+                {
+
+                <div class="cwp4-image col-lg-4 col-md-6">
+                    <div class="grids4-info">
+                        <a href="#"><img src="@item.Image" class="img-fluid" alt=""></a>
+                        <div class="info-bg">
+                            <h5><a href="#">@item.Title</a></h5>
+                            <span class="price">$ @item.Price/ay</span>
+                            <p>@item.Description</p>
+                            <ul>
+                                <li><span class="fa fa-bed"></span> @item.BedroomCount</li>
+                                <li><span class="fa fa-bath"></span> @item.BathroomCount</li>
+                                <li><span class="fa fa-share-square-o"></span> @item.Square m2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
